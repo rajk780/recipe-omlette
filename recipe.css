@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Young+Serif&display=swap') { @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap') }
+
+* {
+    margin: 0;
+    padding: 0;
+    border: border-box;
+}
+
+/* HEADER */
+ body {
+    display:flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: center;
+    background-color: rgba(255, 222, 173, 0.829);
+
+ }
+.m-box {
+    height: 1700px ;
+    width: 650px;
+    background-color: white;
+    margin-top: 90px;
+    border: 2px solid transparent;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 90px;
+
+    
+}
+
+.img {
+    border-radius: 15px;
+    margin-top: 25px;
+    width: 600px;
+    height: 300px;
+    background-image: url(image-omelette.jpeg);
+    background-size: 100% 100%;
+    background-size:cover;
+    background-repeat: no-repeat;
+}
+
+/* main */
+
+.l-head {
+display: block;
+width: 100%;
+margin-left: 10px;
+padding: 25px 5px 15px 15px ;
+
+}
+
+p {
+    margin: 5px 0px;
+    font-family: "Young Serif", serif;
+  font-weight: 550;
+  font-style: normal;
+  font-size: 45px;
+  color: #1e1c1ce5;
+  width:590px;
+    
+}
+
+.m-head {
+    display: block;
+    width: 600px;
+    margin-left: 10px;
+    padding: 5px 5px 15px 15px ;
+    
+    }
+
+.m-small {
+    
+        
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-size: 15px;
+    font-weight: 0;
+    color: #1e1c1cb0;
+}   
+    
+ /*Preparation Time*/
+
+    .cg {
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+    }
+
+    .pt-t {
+        margin-left: 55px;
+        margin-top: 20px;
+        font-size: 20px;
+        font-family: "Outfit", sans-serif;
+        font-weight: 600;
+        color: rgba(83, 6, 76, 0.788);
+}
+ .nb {
+margin-left: 60px;
+margin-top: 10px;
+ }
+
+ li{
+    margin-top: 10px;
+    font-size: 15px;
+    font-family: "Outfit", sans-serif;
+    letter-spacing: 1px;
+    font-weight: 400;
+    color:  #1e1c1ce5;
+    list-style-position: inside;
+    width: 500px; 
+    
+}
+
+li::marker {
+    color:#200404cc ;
+    font-weight: 600;
+}
+
+.ing {
+    display: block;
+width: 100%;
+margin: 50px 0px 20px 30px;
+    font-family: "Young Serif", serif;
+  font-weight: 550;
+  font-style: normal;
+  font-size: 30px;
+  color: #200404cc;
+}
+
+table{
+    margin-left: 60px;
+    
+}
+
+th,td{
+    padding: 10px 70px 10px 25px;
+    font-size: 15px;
+    font-family: "Outfit", sans-serif;
+    border-bottom:2px solid rgb(187, 170, 170);
+    width: 60%;
+    text-align: left;
+}
